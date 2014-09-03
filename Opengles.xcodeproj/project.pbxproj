@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B19EA519B6F08E00C5F1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EA419B6F08E00C5F1F0 /* Foundation.framework */; };
+		69B19EA719B6F08E00C5F1F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EA619B6F08E00C5F1F0 /* CoreGraphics.framework */; };
+		69B19EA919B6F08E00C5F1F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EA819B6F08E00C5F1F0 /* UIKit.framework */; };
+		69B19EAF19B6F08E00C5F1F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B19EAD19B6F08E00C5F1F0 /* InfoPlist.strings */; };
+		69B19EB119B6F08E00C5F1F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B19EB019B6F08E00C5F1F0 /* main.m */; };
+		69B19EB519B6F08E00C5F1F0 /* LAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B19EB419B6F08E00C5F1F0 /* LAppDelegate.m */; };
+		69B19EB719B6F08E00C5F1F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B19EB619B6F08E00C5F1F0 /* Images.xcassets */; };
+		69B19EBE19B6F08E00C5F1F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EBD19B6F08E00C5F1F0 /* XCTest.framework */; };
+		69B19EBF19B6F08E00C5F1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EA419B6F08E00C5F1F0 /* Foundation.framework */; };
+		69B19EC019B6F08E00C5F1F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B19EA819B6F08E00C5F1F0 /* UIKit.framework */; };
+		69B19EC819B6F08E00C5F1F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69B19EC619B6F08E00C5F1F0 /* InfoPlist.strings */; };
+		69B19ECA19B6F08E00C5F1F0 /* OpenglesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B19EC919B6F08E00C5F1F0 /* OpenglesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B19EC119B6F08E00C5F1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B19E9919B6F08E00C5F1F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B19EA019B6F08E00C5F1F0;
+			remoteInfo = Opengles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B19EA119B6F08E00C5F1F0 /* Opengles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opengles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B19EA419B6F08E00C5F1F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69B19EA619B6F08E00C5F1F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69B19EA819B6F08E00C5F1F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69B19EAC19B6F08E00C5F1F0 /* Opengles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Opengles-Info.plist"; sourceTree = "<group>"; };
+		69B19EAE19B6F08E00C5F1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B19EB019B6F08E00C5F1F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69B19EB219B6F08E00C5F1F0 /* Opengles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Opengles-Prefix.pch"; sourceTree = "<group>"; };
+		69B19EB319B6F08E00C5F1F0 /* LAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAppDelegate.h; sourceTree = "<group>"; };
+		69B19EB419B6F08E00C5F1F0 /* LAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAppDelegate.m; sourceTree = "<group>"; };
+		69B19EB619B6F08E00C5F1F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69B19EBC19B6F08E00C5F1F0 /* OpenglesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenglesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B19EBD19B6F08E00C5F1F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69B19EC519B6F08E00C5F1F0 /* OpenglesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenglesTests-Info.plist"; sourceTree = "<group>"; };
+		69B19EC719B6F08E00C5F1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69B19EC919B6F08E00C5F1F0 /* OpenglesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenglesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B19E9E19B6F08E00C5F1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19EA719B6F08E00C5F1F0 /* CoreGraphics.framework in Frameworks */,
+				69B19EA919B6F08E00C5F1F0 /* UIKit.framework in Frameworks */,
+				69B19EA519B6F08E00C5F1F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B19EB919B6F08E00C5F1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19EBE19B6F08E00C5F1F0 /* XCTest.framework in Frameworks */,
+				69B19EC019B6F08E00C5F1F0 /* UIKit.framework in Frameworks */,
+				69B19EBF19B6F08E00C5F1F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B19E9819B6F08E00C5F1F0 = {
+			isa = PBXGroup;
+			children = (
+				69B19EAA19B6F08E00C5F1F0 /* Opengles */,
+				69B19EC319B6F08E00C5F1F0 /* OpenglesTests */,
+				69B19EA319B6F08E00C5F1F0 /* Frameworks */,
+				69B19EA219B6F08E00C5F1F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B19EA219B6F08E00C5F1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EA119B6F08E00C5F1F0 /* Opengles.app */,
+				69B19EBC19B6F08E00C5F1F0 /* OpenglesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B19EA319B6F08E00C5F1F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EA419B6F08E00C5F1F0 /* Foundation.framework */,
+				69B19EA619B6F08E00C5F1F0 /* CoreGraphics.framework */,
+				69B19EA819B6F08E00C5F1F0 /* UIKit.framework */,
+				69B19EBD19B6F08E00C5F1F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69B19EAA19B6F08E00C5F1F0 /* Opengles */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EB319B6F08E00C5F1F0 /* LAppDelegate.h */,
+				69B19EB419B6F08E00C5F1F0 /* LAppDelegate.m */,
+				69B19EB619B6F08E00C5F1F0 /* Images.xcassets */,
+				69B19EAB19B6F08E00C5F1F0 /* Supporting Files */,
+			);
+			path = Opengles;
+			sourceTree = "<group>";
+		};
+		69B19EAB19B6F08E00C5F1F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EAC19B6F08E00C5F1F0 /* Opengles-Info.plist */,
+				69B19EAD19B6F08E00C5F1F0 /* InfoPlist.strings */,
+				69B19EB019B6F08E00C5F1F0 /* main.m */,
+				69B19EB219B6F08E00C5F1F0 /* Opengles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B19EC319B6F08E00C5F1F0 /* OpenglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EC919B6F08E00C5F1F0 /* OpenglesTests.m */,
+				69B19EC419B6F08E00C5F1F0 /* Supporting Files */,
+			);
+			path = OpenglesTests;
+			sourceTree = "<group>";
+		};
+		69B19EC419B6F08E00C5F1F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B19EC519B6F08E00C5F1F0 /* OpenglesTests-Info.plist */,
+				69B19EC619B6F08E00C5F1F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B19EA019B6F08E00C5F1F0 /* Opengles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B19ECD19B6F08E00C5F1F0 /* Build configuration list for PBXNativeTarget "Opengles" */;
+			buildPhases = (
+				69B19E9D19B6F08E00C5F1F0 /* Sources */,
+				69B19E9E19B6F08E00C5F1F0 /* Frameworks */,
+				69B19E9F19B6F08E00C5F1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Opengles;
+			productName = Opengles;
+			productReference = 69B19EA119B6F08E00C5F1F0 /* Opengles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B19EBB19B6F08E00C5F1F0 /* OpenglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B19ED019B6F08E00C5F1F0 /* Build configuration list for PBXNativeTarget "OpenglesTests" */;
+			buildPhases = (
+				69B19EB819B6F08E00C5F1F0 /* Sources */,
+				69B19EB919B6F08E00C5F1F0 /* Frameworks */,
+				69B19EBA19B6F08E00C5F1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B19EC219B6F08E00C5F1F0 /* PBXTargetDependency */,
+			);
+			name = OpenglesTests;
+			productName = OpenglesTests;
+			productReference = 69B19EBC19B6F08E00C5F1F0 /* OpenglesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B19E9919B6F08E00C5F1F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = L;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cn.ttg;
+				TargetAttributes = {
+					69B19EBB19B6F08E00C5F1F0 = {
+						TestTargetID = 69B19EA019B6F08E00C5F1F0;
+					};
+				};
+			};
+			buildConfigurationList = 69B19E9C19B6F08E00C5F1F0 /* Build configuration list for PBXProject "Opengles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69B19E9819B6F08E00C5F1F0;
+			productRefGroup = 69B19EA219B6F08E00C5F1F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B19EA019B6F08E00C5F1F0 /* Opengles */,
+				69B19EBB19B6F08E00C5F1F0 /* OpenglesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B19E9F19B6F08E00C5F1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19EAF19B6F08E00C5F1F0 /* InfoPlist.strings in Resources */,
+				69B19EB719B6F08E00C5F1F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B19EBA19B6F08E00C5F1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19EC819B6F08E00C5F1F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B19E9D19B6F08E00C5F1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19EB119B6F08E00C5F1F0 /* main.m in Sources */,
+				69B19EB519B6F08E00C5F1F0 /* LAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B19EB819B6F08E00C5F1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B19ECA19B6F08E00C5F1F0 /* OpenglesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B19EC219B6F08E00C5F1F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B19EA019B6F08E00C5F1F0 /* Opengles */;
+			targetProxy = 69B19EC119B6F08E00C5F1F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B19EAD19B6F08E00C5F1F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B19EAE19B6F08E00C5F1F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69B19EC619B6F08E00C5F1F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B19EC719B6F08E00C5F1F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B19ECB19B6F08E00C5F1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69B19ECC19B6F08E00C5F1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B19ECE19B6F08E00C5F1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opengles/Opengles-Prefix.pch";
+				INFOPLIST_FILE = "Opengles/Opengles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69B19ECF19B6F08E00C5F1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opengles/Opengles-Prefix.pch";
+				INFOPLIST_FILE = "Opengles/Opengles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69B19ED119B6F08E00C5F1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opengles.app/Opengles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opengles/Opengles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenglesTests/OpenglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69B19ED219B6F08E00C5F1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opengles.app/Opengles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opengles/Opengles-Prefix.pch";
+				INFOPLIST_FILE = "OpenglesTests/OpenglesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B19E9C19B6F08E00C5F1F0 /* Build configuration list for PBXProject "Opengles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B19ECB19B6F08E00C5F1F0 /* Debug */,
+				69B19ECC19B6F08E00C5F1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B19ECD19B6F08E00C5F1F0 /* Build configuration list for PBXNativeTarget "Opengles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B19ECE19B6F08E00C5F1F0 /* Debug */,
+				69B19ECF19B6F08E00C5F1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B19ED019B6F08E00C5F1F0 /* Build configuration list for PBXNativeTarget "OpenglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B19ED119B6F08E00C5F1F0 /* Debug */,
+				69B19ED219B6F08E00C5F1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B19E9919B6F08E00C5F1F0 /* Project object */;
+}
